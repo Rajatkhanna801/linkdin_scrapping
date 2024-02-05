@@ -21,8 +21,8 @@ class LinkedinSeleniumScraper:
     driver = chromedriver.drivers()
     def __init__(self):
         self.linkedin_creds = {
-                'username': 'rajatkhanna801@gmail.com',
-                'password': 'nokia5233'
+                'username': 'linkdin_username',
+                'password': 'linkdin_password'
         }
         self.login_url = "https://linkedin.com/uas/login"
         self.post_url = ["https://www.linkedin.com/company/blenheim-chalcot/posts/?feedView=all",]
